@@ -32,8 +32,8 @@ public class EcomBookingScript {
 
 	@BeforeTest
 	public void beforeTest() {
-		System.setProperty("webdriver.chrome.driver", "D:\\GitHub\\Selenium2-Java-QuickStart-Archetype\\testWorldTicket\\driver\\chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "D:\\GitHub\\Selenium2-Java-QuickStart-Archetype\\testWorldTicket\\driver\\geckodriver.exe");
+		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "driver\\geckodriver.exe");
 		WebDriver driver = new ChromeDriver();
 //		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
