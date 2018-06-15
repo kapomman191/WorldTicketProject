@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="example.EcomBookingScript">
+        <methods>
+          <include name="runBooking"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- example.EcomBookingScript -->
+      <class name="example.NewTest">
+        <methods>
+          <include name="testEasy"/>
+        </methods>
+      </class> <!-- example.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
